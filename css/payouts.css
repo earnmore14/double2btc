@@ -1,0 +1,30 @@
+.header__wrap {
+  display: flex; }
+
+.header__navbar_left {
+  width: 50%; }
+
+.header__start {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+.header__btn-link {
+  background-color: #262467;
+  border: 2px solid;
+  border-radius: 50px;
+  color: #ffffff;
+  height: 30px;
+  line-height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+  transition: .3s; }
+
+.header__btn-link:hover {
+  background: #4291c7; }
+
+.header__btn-icon {
+  margin-right: 10px; }

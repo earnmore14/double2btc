@@ -1,0 +1,17 @@
+.deposits__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.deposits__title {
+  font-size: 1.85em;
+  font-weight: bold;
+  color: #221f1f; }
+
+.deposits__desk {
+  color: #777777;
+  font-weight: bold;
+  padding-top: 20px; }

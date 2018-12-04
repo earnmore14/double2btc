@@ -1,0 +1,34 @@
+.bitadress{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.uk-alert {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px 12px 14px 17px;
+    background: #cce9f2;
+    border: none;
+    color: #3194b1;
+    border-radius: 0;
+}
+.uk-alert h2{
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #3194b1;
+    font-weight: 500;
+}
+
+.idz-padding p{
+    margin: 0 0 15px 0;
+}
+
+
+.idz-padding #a3{
+    margin: 15px 0;
+}

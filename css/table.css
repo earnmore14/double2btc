@@ -1,0 +1,50 @@
+.table {
+  border-bottom: 1px solid #d3d3d3; }
+  .table__content {
+    padding-top: 10px; }
+  .table__top {
+    background: linear-gradient(to right, #262467 0%, #26a7e0 100%), -webkit-linear-gradient(left, #262467 0%, #26a7e0 100%);
+    padding: 20px 22px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: white; }
+  .table__top-text {
+    font-size: 1.2em; }
+  .table__top-title {
+    display: flex; }
+  .table__top-left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+  .table__top-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px; }
+  .table__top-Payouts {
+    margin-right: 25px; }
+  .table__top-link {
+    color: white;
+    font-size: 1em;
+    transition: .3s; }
+  .table__top-link:hover {
+    color: #262467; }
+  .table__img {
+    width: 11%; }
+
+td {
+  text-align: center;
+  width: 100px; }
+
+.fa-dollar-sign {
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  color: #26a7e0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }

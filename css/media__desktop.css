@@ -1,0 +1,21 @@
+@media only screen and (max-width: 1100px) and (min-width: 768px){
+    .wrapper{
+        min-width: 768px;
+    }
+    .container{
+        width: 90%;
+    }
+    .footer {
+        background-color: #2e3234;
+        height: 80px;
+        color: white;
+        min-width: 320px;
+        padding-bottom: 20px;
+    }
+    .footer__text-site{
+        text-align: center;
+    }
+    .header__form-submit {
+        width: 15%;
+    }
+}

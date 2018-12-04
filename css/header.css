@@ -1,0 +1,91 @@
+.header {
+  background: #262467; }
+  .header__list {
+    display: flex;
+    justify-content: center; }
+  .header__item {
+    padding: 20px; }
+  .header__link {
+    color: white;
+    font-weight: bold;
+    font-size: 0.85em;
+    transition: .3s;
+    padding: 10px 0px 10px 0px;
+    text-transform: uppercase; }
+  .header__link_active {
+    color: #26a7e0; }
+  .header__link:hover {
+    color: #26a7e0; }
+  .header__content {
+    background: url(img/bgpng.png) no-repeat, linear-gradient(to right, #262467 0%, #26a7e0 100%), -webkit-linear-gradient(left, #262467 0%, #26a7e0 100%);
+    background-position: center 200px;
+    height: 520px; }
+  .header__icon-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px; }
+  .header__icon-item {
+    margin-right: 20px;
+    display: flex;
+    align-items: center; }
+  .header__icon-item:nth-child(4) {
+    margin: 0; }
+  .header__icon-item:nth-child(3) {
+    margin: 0; }
+  .header__icon-img {
+    width: 100px; }
+  .header .fa-arrow-right {
+    font-size: 50px;
+    color: white; }
+  .header__title {
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1; }
+  .header__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; }
+  .header__form-address {
+    width: 70%;
+    border: 3px solid #262467;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center; }
+  .header__select-title {
+    padding: 20px 0px 5px 0px;
+    color: white;
+    font-weight: bold; }
+  .header__form-select {
+    border-radius: 10px;
+    height: 30px; }
+  .header__form-submit {
+    background-color: #262467;
+    border: 2px solid;
+    border-radius: 50px;
+    color: #ffffff;
+    height: 40px;
+    cursor: pointer;
+    width: 12%;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: .3s; }
+  .header__form-submit:hover {
+    background-color: #4291c7;
+    color: #ffffff; }
+  .header__minmax-title {
+    padding-top: 10px;
+    color: white;
+    font-weight: bold; }
+
+.bar {
+  display: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px 0px; }

@@ -1,0 +1,24 @@
+.footer {
+  background-color: #2e3234;
+  height: 80px;
+  color: white;
+  min-width: 1140px; }
+  .footer__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px; }
+  .footer__text-site {
+    font-size: 1.5em;
+    color: #909090;
+    font-weight: normal;
+    padding-bottom: 5px; }
+  .footer__site {
+    color: #0384bd;
+    font-weight: bold; }
+  .footer__text-copy {
+    font-size: 0.85em;
+    color: #909090;
+    text-transform: uppercase;
+    font-weight: bold; }

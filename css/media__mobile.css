@@ -1,0 +1,150 @@
+@media screen and (max-width:768px){
+    .wrapper{
+        min-width: 320px;
+    }
+    .container{
+        width: 90%;
+    }
+    table{
+        overflow-x: auto;
+        display: block;
+    }
+    .bar{
+        display: block;
+    }
+    .header__list {
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header__item {
+        padding: 5px 0px;
+        border-bottom: 1px solid;
+        color: #26a7e0;
+    }
+    .header__item:last-child{
+        border: none;
+        padding-bottom: 10px;
+    }
+    .header__title {
+        font-size: 2em;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .header__form-address {
+        width: 70%;
+        border: 3px solid #262467;
+        border-radius: 50px;
+        font-size: 17px;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .header__form-select {
+        border-radius: 10px;
+        height: 30px;
+    }
+    .header__form-submit {
+        background-color: #262467;
+        border: 2px solid;
+        border-radius: 50px;
+        color: #ffffff;
+        height: 40px;
+        cursor: pointer;
+        width: 40%;
+        margin-top: 30px;
+        font-weight: bold;
+        transition: .3s;
+    }
+    .score {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .score__item {
+        border-radius: 10px;
+        padding: 30px 48px 20px;
+        width: 70%;
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    .table__top{
+        padding: 10px 10px;
+    }
+    .table__top-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .table__top-left {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .fa-dollar-sign{
+        display: none;
+    }
+    .table__top-text {
+        font-size: 1.2em;
+        width: 100%;
+    }
+    .table__top-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .table__top-Payouts:last-child {
+        margin: 0;
+    }
+    .footer {
+        background-color: #2e3234;
+        height: 80px;
+        color: white;
+        min-width: 320px;
+        padding-bottom: 20px;
+    }
+    .footer__text-site{
+        text-align: center;
+    }
+    .header__start {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 0px;
+    }
+    .bar_media{
+        padding: 20px 0px;
+    }
+    .deposits__title{
+        text-align: center;
+    }
+    .deposits__desk{
+        text-align: center;
+    }
+    .form__wrap{
+        width: 100%;
+    }
+    .form__item-input{
+        width: 200px;
+    }
+    .form__item-submit{
+        padding: 15px 10px;
+    }
+    .aff__desk{
+        text-align: center;
+    }
+
+}
