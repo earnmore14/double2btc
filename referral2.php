@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><body background="img/btcs.png">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,13 +28,13 @@
                             </li>
 							</li>
 					     <li class="header__item">
-                        <a href="referral.html" class="header__link">Referral</a>
-						</li>
+                        <a href="referral.html" class="header__link  header__link_active">Referral</a>
+                    </li>
                             <li class="header__item">
                                 <a href="deposits.html" class="header__link">DEPOSITS</a>
                             </li>
                             <li class="header__item">
-                                <a href="payouts.html" class="header__link header__link_active">PAYOUTS</a>
+                                <a href="payouts.html" class="header__link ">PAYOUTS</a>
                             </li>
                             <li class="header__item">
                                 <a href="faq.html" class="header__link">FAQ</a>
@@ -43,7 +43,7 @@
                                 <a href="terms.html" class="header__link">TERMS</a>
                             </li>
                             <li class="header__item">
-                                <a href="support.html" class="header__link">Support</a>
+                                <a href="support.html" class="header__link ">Support</a>
                             </li>
                         </ul>
                     </section>
@@ -60,45 +60,47 @@
                 </div>
             </div>
         </header>
+
         <section class="maincontent">
             <div class="container">
-                <section class="deposits__text">
-                    <h2 class="deposits__title">Your Latest BitDouble Payouts
-                    </h2>
-                    <div class="deposits__desk">Our members double their Bitcoins in just 24 hours. You may become one of the clients below and double
-                        your coins too. Get started today!
-                    </div>
+                <section class="Referral">
+                    <h1 class="support__title"><font color="white">Invite your friends and get 50% each time they deposit.
+                    </font></h1>
+                    <div class="support__desk"><font color="white">Wish to help your friends to earn money easely as you? Not a big deal! You always can tell them about our service for Bitcoin mining.
+But stop! Any of your friends who deposit with your special url will make profit not just for himself - you will also get bonus for your recomendations.
+                    </font></div>
+                    <h1 class="support__contact"><font color="white">You Referral Link</font></h1>
+                  
+				  <?php 
+				 
+				  	$data=$_POST['postdata'];
+				  echo" 
+				   <form >
+				
+                        <div class='form__wrap'>
+                            <div class='form__item'>
+                                <label for class='form__item-label'>Share you link to start earning bitcoins.
+                                </label>
+                                 <label for class='form__item-label'><font color='black' size='4px'>https://double2btc.netlify.com/?ref=$data</font>
+								 
+                            </div>
+                        </div>
+                    </form>
+					"?>
                 </section>
-                <div class="table__top">
-                    <div class="table__top-title">
-                        <div class="table__top-left">
-                            <i class="fas fa-dollar-sign"></i>
-                            <div class="table__top-text">Your 50 Latest Payouts in the Last
-                            </div>
-                        </div>
-                        <div class="table__top-right">
-                            <div class="table__top-Payouts">
-                                <a href="deposits.html" class="table__top-link">VIEW YOUR DEPOSITS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <table class="uk-table uk-table-striped idz-table-account table" id="space">
-                    <thead>
-                        <tr>
-                            <th>Payout Date</th>
-                            <th>Address</th>
-                            <th>Deposit Amount</th>
-                            <th>Time Left</th>
-                            <th>Pay Amount</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
             </div>
         </section>
     </div>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer__text">
+                <p class="footer__text-site">
+                    <span class="footer__site">double2btc.netlify.com</span> - doubling bitcoins since 2018</p>
+                <p class="footer__text-copy">Copyright © 2018 BTC COIN COMPANY LTD</p>
+            </div>
+        </div>
+    </footer>
     <script src="js/script.js"></script>
+
 </body>
 </html>
