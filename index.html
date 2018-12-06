@@ -2,6 +2,29 @@
 <html lang="en">
 <head>
 <!-- Yandex.Metrika counter -->
+<?php 
+
+
+   if (isset($_GET['inviteCode']))   {   
+
+ $inviteCode    = ($_GET['inviteCode']);
+ 
+ if (!empty($inviteCode)) //check if values are correct and available in database
+   {
+     header('Location: index.php');
+       }
+     else
+         {
+     header('Location: index.php');
+     exit;
+         }
+   }
+else
+   {
+header('Location: index.php'); //Page not accessible if neither email nor referral entered
+   }
+
+?>
 <script type="text/javascript" >
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
